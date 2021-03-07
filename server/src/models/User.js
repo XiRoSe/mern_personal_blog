@@ -54,7 +54,8 @@ const userSchema = new Schema(
 userSchema.statics.findByCredentials = async (email, password) => {
   const user = await User.findOne({ email });
   if (user) {
-    const isMatch = await bcrypt.compare(password, user.password);
+
+    const isMatch = password === user.password;
     if (isMatch) {
       return user;
     } else {

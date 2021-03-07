@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useHistory, useParams } from "react-router-dom";
 import axios from "axios";
 import Style from "./Article.module.css";
-import Blogheader from "../../components/Blogheader";
+import Blogheader from "../../components/blogheader";
 import ReactMarkdown from "react-markdown";
 import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
 

@@ -1,10 +1,11 @@
 import React, { useContext } from "react";
-import { Route, Switch, Redirect, __RouterContext } from "react-router-dom";
+import { __RouterContext } from "react-router";
+import { Route, Switch, Redirect } from "react-router-dom";
 import { useTransition, animated } from "react-spring";
-import Layout from "./components/Layout";
-import Home from "./routes/Home";
-import Login from "./routes/Login";
-import Article from "./routes/Article";
+import Layout from "./components/layout";
+import Home from "./routes/home";
+import Login from "./routes/login";
+import Article from "./routes/article";
 import NewArticle from "./routes/NewArticle";
 
 const App = () => {

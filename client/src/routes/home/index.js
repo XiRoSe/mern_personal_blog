@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Style from "./Home.module.css";
 import axios from "axios";
-import Blogheader from "../../components/Blogheader";
+import Blogheader from "../../components/blogheader";
 import { useHistory } from "react-router-dom";
 
 const Home = () => {
