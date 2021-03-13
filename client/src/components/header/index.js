@@ -24,7 +24,7 @@ const Header = () => {
 
   return (
     <header className={Style.header}>
-      <h1>Rhodlib</h1>
+      <h1>Matan avitan's blog</h1>
       <nav>
         <Link to="/">blog</Link>
         {loginLogout()}
